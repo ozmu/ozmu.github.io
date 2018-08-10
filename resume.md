@@ -4,4 +4,4 @@ title: Resume
 permalink: /resume/
 ---
 
-![Resume](/static/cv/cv.pdf)
+![Resume](http://ozturkm.com/static/cv/cv.pdf)
