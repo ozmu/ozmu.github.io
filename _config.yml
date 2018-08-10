@@ -5,8 +5,8 @@ logo: /static/img/ozturk.jpg
 github: https://github.com/ozmu
 about: Cyber Security Engineer Candidate
 
-baseurl: "https://ozmu.github.io/"
-url: "https://ozmu.github.io/"
+baseurl: "//ozmu.github.io/"
+url: "//ozmu.github.io/"
 
 allowsearch: true
 
