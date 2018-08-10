@@ -4,4 +4,4 @@ title: Resume
 permalink: /resume/
 ---
 
-![Resume](http://ozturkm.com/static/cv/cv.pdf)
+Özgeçmişime [buradan](https://drive.google.com/file/d/1tT9-6lUO5660LOSGGN32mMdf3r33s6bU/view?usp=sharing) ulaşabilirsiniz.
