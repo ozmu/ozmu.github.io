@@ -2,7 +2,7 @@
 layout: post
 title: Hello World
 date:   2018-08-01 13:50:39
-categories: others
+categories: en
 ---
 
 This is a test blog page where we can explore how to embedd images in the blog. 
