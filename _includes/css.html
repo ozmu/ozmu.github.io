@@ -17,7 +17,24 @@
         <link rel="stylesheet" href="{{ site.baseurl }}/static/css/thickbox.css">
         <link rel="stylesheet" href="{{ site.baseurl }}/static/css/main.css">
         <link rel="stylesheet" href="{{ site.baseurl }}/static/css/projects.css">
-
+        <style>
+          div.PageNavigation {
+              margin: 50px 0;
+          }
+          div.PageNavigation a{
+              padding: 10px;
+              margin: -35px 0;
+              background: #e1e1e1;
+              transition: .4s all ease;
+          }
+          div.PageNavigation a:hover {
+              background: #eaeaea78;
+              color: #0d4e48;
+              border-radius: 10px;
+              text-decoration: none;
+              transition: .4s all ease;
+          }
+        </style>
         <script type="text/javascript">
           //loadingImage is relative to project dir
           var tb_pathToImage = "{{ site.baseurl }}/static/img/loadingAnimation.gif";
