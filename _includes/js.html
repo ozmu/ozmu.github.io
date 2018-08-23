@@ -9,3 +9,13 @@
 <script src="{{ site.baseurl }}/static/js/material.min.js"></script>
 <script src="{{ site.baseurl }}/static/js/main.js"></script>
 <script src="{{ site.baseurl }}/static/js/projects.js"></script>
+<script>
+    let shareBtn = $("#shareBtn");
+    let socialBar = $("#socialBar")
+    shareBtn.click(function(){
+    socialBar.toggleClass('active');
+    shareBtn.toggleClass('hide');
+    shareBtn.toggleClass('fa-share-alt');
+    shareBtn.toggleClass('fa-times');
+    })
+</script>
