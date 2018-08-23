@@ -2,11 +2,10 @@
     <i class="fa fa-share-alt" id="shareBtn"></i>
     <i class="fa fa-google-plus" id="shareBtn"></i>
     <i class="fa fa-facebook" id="shareBtn"></i>
-    <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ site.share.twitter_username }}">
+    <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Look%20at%20this%20article!%20via%20%40ozturkmuhammeet%0A{{ site.share.twitter_username }}" data-size="large">
         <i class="fa fa-twitter" id="shareBtn"></i>
     </a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>    
-    <a href="https://api.whatsapp.com/send?text=Look%20at%20this%20article!%0A{{page.url}}">
+    <a href="https://api.whatsapp.com/send?text=Look%20at%20this%20article!%0A{{site.url}}{{page.url}}">
         <i class="fa fa-whatsapp" id="shareBtn"></i>
     </a>
 </button>
