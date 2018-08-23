@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fluffy Project
+title: Fluffy
 permalink: /projects/fluffy
 ---
 
