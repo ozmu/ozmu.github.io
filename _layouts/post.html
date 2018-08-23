@@ -44,4 +44,22 @@ layout: default
     <a class="next pull-right" href="{{ site.url }}{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
   {% endif %}
 </div>
+<style>
+    div.PageNavigation {
+        margin: 20px 0;
+    }
+    div.PageNavigation a{
+        padding: 10px;
+        margin: -35px 0;
+        background: #e1e1e1;
+        transition: .4s all ease;
+    }
+    div.PageNavigation a:hover {
+        background: #eaeaea78;
+        color: #0d4e48;
+        border-radius: 10px;
+        text-decoration: none;
+        transition: .4s all ease;
+    }
+</style>
 </div>
